@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Bitter");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
 html {
-    font-family: "Lato", serif;
+    font-family: Lato, serif;
     color: #333;
     position: relative;
     min-height: 100%;
 }
 body {
     padding-top: 56px;
-    /* Margin bottom by footer height */
     margin-bottom: 150px;
 }
-
-h2, h3, h4, h5, strong {
+h2,
+h3,
+h4,
+h5,
+strong {
     color: #5d5555;
 }
 footer {
@@ -26,14 +27,14 @@ footer {
     padding-top: 1.5rem !important;
 }
 .cover-principal {
-    background-image: url("https://cdn.civitatis.com/espana/estepona/excursion-tanger.jpg");
+    background-image: url(https://cdn.civitatis.com/espana/estepona/excursion-tanger.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
 }
 .title-ibss {
     font-size: 3rem;
-    color: #ffffff;
+    color: #fff;
     text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
 }
 .location-text {
@@ -48,7 +49,7 @@ blockquote {
     background: #eee;
     padding: 20px 10px 15px 12px;
     border-radius: 10px;
-    font-family: "Bitter", serif;
+    font-family: Bitter, serif;
     color: #333;
     text-align: left;
     box-shadow: 1px 1px 1px #999, 2px 2px 1px #999, 3px 3px 1px #999;
@@ -56,15 +57,23 @@ blockquote {
 }
 .copy {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 .copy:hover {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
-
-.logos img{
+.logos img {
     margin-top: 30px;
     height: 60px;
     padding-right: 10px;
+}
+.organizers a {
+    color: #333;
+}
+.organizers a:link {
+    text-decoration: none;
+}
+.organizers a:visited {
+    text-decoration: none;
 }
